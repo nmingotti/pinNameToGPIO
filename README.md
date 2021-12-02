@@ -33,4 +33,5 @@ $> pinNameToGPIO.py P9_14
   *  Your operating system version  
 
 ### Changelog
-* 02-dec-10 - improving the Readme
+* 03-dec-2021 - tested in BB-Black
+* 02-dec-2021 - improving the Readme
