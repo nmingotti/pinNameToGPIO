@@ -21,7 +21,7 @@ $> pinNameToGPIO.py P9_14
 ```
 * In my system I get as output `/sys/class/gpio/gpio121`, your output may be different.
 * If you get no output it means the associated file was not found.
-* You can write the pin name as `P9_14` or `P9.14` .
+* You can write the pin name as `P9_14` or `P9.14` and it is **case insensitive**.
 
 ### Tested working in  
 * 02-dec-2021. BB-AI, BeagleBoard.org Debian Buster IoT Image 2021-10-01, Linux BB-AI-1 4.19.94-ti-r68 #1buster
