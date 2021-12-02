@@ -26,10 +26,14 @@ if len(sys.argv) < 2:
     print("Error, first argument is needed, a pin name, e.g. P9.11 or P9_11.")
     sys.exit(1)
 
-# . the pin name is the first argument 
+# . the pin name is the first argument, allow some variabiliy in input: P9_14 = P9.14 = p9.14
 PIN_NAME = sys.argv[1]
-# . pin names are written as "PX_Y" in label files 
+# . dot is admitted instead of underscore 
 PIN_NAME = PIN_NAME.replace('.', '_', 1).strip()
+# . 'P' case is irrelevant
+PIN_NAME = PIN_NAME.replace('p', 'P', 1).strip()
+
+
 
 # all files in like /sys/class/gpio/gpio*
 allFiles = os.listdir(BASE_DIR)
