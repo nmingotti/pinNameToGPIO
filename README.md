@@ -20,7 +20,7 @@ us this script which should solve the problem once and for all.
 $> pinNameToGPIO.py P9_14
 ```
 * In my system I get as output `/sys/class/gpio/gpio121`, your output may be different.
-* If you get no output it means the associated file was not found.
+* If you get no output it means the associated file was not found i.e. the system thinks the pin you selected isn't a GPIO pin.
 * You can write the pin name as `P9_14` or `P9.14` and it is **case insensitive**.
 
 ### Tested working in  
