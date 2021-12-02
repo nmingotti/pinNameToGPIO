@@ -1,5 +1,5 @@
 # pinNameToGPIO
-BeagleBorad. Find the GPIO file associated to a given pin-name, like P9_14
+BeagleBoard. Find the GPIO file associated to a given pin-name, like P9_14
 
 ## Mini documentation
 
@@ -27,7 +27,7 @@ $> pinNameToGPIO.py P9_14
 ** 02-dec-2021. BB-AI, BeagleBoard.org Debian Buster IoT Image 2021-10-01, Linux BB-AI-1 4.19.94-ti-r68 #1buster
 
 **ATTENTION !!**
-* The BeagleBoard world moves fast, always check:
+* The *BeagleBoard* world moves fast, always check:
   *  Your board name
   *  Your operating system version  
 
