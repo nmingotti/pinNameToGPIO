@@ -25,6 +25,7 @@ $> pinNameToGPIO.py P9_14
 
 ### Tested working in  
 * 02-dec-2021. BB-AI, BeagleBoard.org Debian Buster IoT Image 2021-10-01, Linux BB-AI-1 4.19.94-ti-r68 #1buster
+* 03-dec-2021. BB-Black, BeagleBoard.org Debian Buster IoT Image 2020-04-06, Linux beaglebone 4.19.94-ti-r42
 
 **ATTENTION !!**
 * The *BeagleBoard* world moves fast, always check:
