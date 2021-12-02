@@ -23,8 +23,8 @@ $> pinNameToGPIO.py P9_14
 * If you get no output it means the associated file was not found.
 * You can write the pin name as `P9_14` or `P9.14` .
 
-### Tested in 
-** 02-dec-2021. BB-AI, BeagleBoard.org Debian Buster IoT Image 2021-10-01, Linux BB-AI-1 4.19.94-ti-r68 #1buster
+### Tested working in  
+* 02-dec-2021. BB-AI, BeagleBoard.org Debian Buster IoT Image 2021-10-01, Linux BB-AI-1 4.19.94-ti-r68 #1buster
 
 **ATTENTION !!**
 * The *BeagleBoard* world moves fast, always check:
