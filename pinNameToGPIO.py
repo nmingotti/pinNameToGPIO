@@ -2,15 +2,16 @@
 
 DOC = """
 
-Problem. Give a ping name e.g. P9_14 you would like to know its 
+Problem. Given a pin name e.g. "P9_14" you would like to know its 
          associated GPIO file in sysfs. 
 
 Solution. 
 $> pinNameToGPIO.py P9_14
-or
-$> pinNameToGPIO.py P9.14
+/sys/class/gpio/gpio50
 
-CAVEAT. If a pin PX_Y must be already defined to be a GPIO pin to be found.
+CAVEAT. 
+. The pin PX_Y must be already defined to be a GPIO.
+. If no correspondence is found in sysfs then nothing is returned.
 
 """
 
